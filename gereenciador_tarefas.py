@@ -52,7 +52,7 @@ while True:
     elif selecao == 3:
         while True:
             print()
-            last_tarefa = input('Em ordem numérica (1a, 2a...), qual a tarefa que você deseja remover?: ')
+            last_tarefa = input('Em ordem numérica (1a, 2a...), qual a tarefa que você deseja remover: ')
             if not last_tarefa.isdigit():
                 print()
                 print('Digite apenas um valor numérico!')
